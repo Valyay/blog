@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "webpack-dev-server --open --hot --mode development",
     "build": "webpack --mode production",
     "lint": "eslint --debug src/",
     "lint:write": "eslint --debug src/ --fix",
     "prettier": "prettier --write src/**/*.js"
+  },
+  "jest": {
+    "verbose": true
   },
   "husky": {
     "hooks": {
@@ -68,10 +71,13 @@
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "husky": "^3.0.9",
+    "jest": "^24.9.0",
+    "jest-dom": "^4.0.0",
     "lint-staged": "^9.4.2",
     "prettier": "^1.18.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
+    "react-testing-library": "^8.0.1",
     "style-loader": "^1.0.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.9",
