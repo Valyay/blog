@@ -7,3 +7,11 @@ node_js:
 branches:
   only:
     - master
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: "nvKsKRHfgwgSUIxLVakxZ6pMZFRZdSMLrWdiih8z+JVOo6Sel4rSImkOPIOMwc2tWriIdihHnhduL1oJ9JFIX3H9Pui861bHWXGbpQPIW5VaRFn9ehyf9zw6ec3iZSWeQYFfSijh4sGRipIDQY8cXsIbqwIz+m5oC04GN507os08kQl2K4jOKnJilsiK+xxD6b+aULhlZaltCq4KvV4kT3VNFl/07tLPGnlqA/ZdbRQJ4SH2AXizj7cf+FjfIDFShcPx+IZi1i8niCWv/lKh8MjYb6Vt1W4sCPkpy8aE56JmNBzTckAJLXbpyTKa54DEkgU0FjdBn6olu9WOZCJAYCyu6ZKcoMyQO+mbvMzDZGPyRiCxHMz+50i3jQrBr6JXJufiQHYsfjckNx1UUQA84TJgTJzaevr+pbNaZrbq58oNNOLnIkoKSw8Ecwm7lkzJkE9eT+d6lHwLppTNbcRsLr8welvhen7+6Rqig3tbYRfQQhqNYBwN51HRJbRoLe4ctbZ8mKxJDalHSm7iDIJIYMSdi6alDVDqkNmMMReOWbe0JVb/Ha1ao7k5GwmBPaxBxuTnCLVxT+8evFp5WqgS4dlKM0VnIyAQdzBIvC8BTIOClkd74gmVyRIqp4TGpN0q88IEWBEWz8mhAZ/K5O1QUGgHn3SnG+Hw/yMrDHxFHQs="
+  app: "my-fullstack-blog"
+  on:
+    repo: Valyay/blog
