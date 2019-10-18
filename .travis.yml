@@ -10,11 +10,10 @@ branches:
 
 deploy:
   provider: heroku
-  api_key:
-    secure: "uRrS/RqCxQckE5ui3nA0Ik2C/bp1o6xqJRkYl1wcbkXSOy8Hj54FUXKlqkrJwSQ9kiQ6S3HdAtLi3tRkK8Ju0TLME8eyCnfQcsyTha1ZuFtTgMvbmp/DV4nEdRrUmVmJ9gVgr3enUR5++6oUfvH0GIYIO0UthzSZ5RoxsGKHfEuK/ezj38NMw/b/2JLNINtMm3Hhtvnean09FSAltpQBH1NER04pUI8eVwvs1a/2vVcUGFSKEkGUFL3ox/jP0pgLcW3f0WbNxxW6ywSCoVw2E0wbmjfQAok8RXVHhL0I9gL99gz/NeePc+Qnz66r6qrvvyKPAZgU0DKbD5e6C1WWUKwdEnsAXlDvjmqT92zxeq1LI9p0HmnuWRH3q339QnNGXJvXojdjw+XxvT4L31mzJteY3kFc2CnRdpO9vNtpUuQFqmhc/wJmp3CfCvhhBgx/vb+3zlgnzWWbaILTWXSqB/7I9gOaBbW6C9rdAwdrqfJsccW5E1VfwZuLyWOL/i4lYXWXVHAKBqQFcUwaE3dnL+Lq43/WRlXlGNpgXMIBX+PtCiJjmw7XHaZ20lUSsLZt9tO0G7TOe+oT5BTdnMDOM9i13/DS5PeZZqpIqnkQ96UcBS3aMMtaxi2U+6HKppPWRvLcqlvVl8NsZM6hRXttLqXlGKjxRR/CR4RQOjpCd+Q="  app: "my-fullstack-blog"
   app: my-fullstack-blog
-  on:
-    repo: Valyay/blog
+  api_key:
+    secure: f97b36ec-84fa-44f1-a5a4-1eb8b617d1cb
+  
 
 after_success:
   - cat ./coverage/lcov.info | ./node_modules/codecov.io/bin/codecov.io.js
