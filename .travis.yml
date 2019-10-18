@@ -12,7 +12,7 @@ deploy:
   provider: heroku
   app: my-fullstack-blog
   api_key:
-    secure: f97b36ec-84fa-44f1-a5a4-1eb8b617d1cb
+    secure: InGGjJOuFmpNFFR7mLWD6H+ib7IfDfPudoiDf+vhOiVlBHrtSGcMvT6VSRlLgYQjn/MYp9WD9/kThH4js2jhwEWZZtz8xINXOTNap6kIIOCbMuHUgoZDGnOYGcWB1HOnsPsw3zH58DzEkEAFFnymcSrIHbuZS3oGV/gs6M4ghHyfmuoXXEg8oV6bxojckw6nQKa6/UhKy4dD6o/EMiQPRUVlFZZQ0oEung4o3UZtEhd/M/vbI9raWxzZy50GhP7Ooo/Yn+VjOrhteHwnMzetGSAGo+7dCpZKVW4lzG254XHeaHoze1EPuLl3GxDjWm+VR/cNXmNOUNEjWjtqkDFADMeTtBlfsMYVrqLe2dfY+JCfS8Uu2mf/OD+jC/hTAQSgn7R6qMJ4g8Qh9b1JOtPeh1C5Z141qTzOPTejhVaE7SttI30WSciwUD8hrCxC9Md5dt4++rv8buVsFrz7V3qYvqv0L0BBsfVTzKfFHfoXIK8eI+KtRjwH8/i1QGcT5fkB5ddtuX71FHATzv/5LViJjNdunGJco6kIasax2ofIQ3RlC0C69mnxDw9zFf0Aa1+ydMogHNTQ35cgqXYAt1FJO7jaIvozn/zGLvODiVavLnyyRHQy2KJiOhCvLAq6pabtzWc0t3/D8EhxVwl8U5WPu16gGCPZAT1DWQ87Xe+Wryw=
   
 
 after_success:
